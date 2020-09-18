@@ -7,6 +7,6 @@ const PlanSchema = new Schema({
   title: String
 });
 
-const Plan = mongoose.model("workout-plan", PlanSchema);
+const workoutPlan = mongoose.model("workoutPlan", PlanSchema);
 
-module.exports = Plan ;
+module.exports = workoutPlan ;
