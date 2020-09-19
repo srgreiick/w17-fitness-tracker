@@ -2,5 +2,5 @@
 
 module.exports = {
    // Weight: require("./Weight.js"),
-    workoutPlan: require("./Cardio.js")
+    workoutPlan: require("./exercise.js")
   };
