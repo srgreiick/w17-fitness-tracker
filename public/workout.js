@@ -30,6 +30,11 @@ function tallyExercises(exercises) {
     }
     return acc;
   }, {});
+  let duration = 0;
+  for (i=0; i<exercises.length; i++){
+    duration += exercises[i].duration;
+  }  
+  tallied.totalDuration = duration;
   return tallied;
 }
 
