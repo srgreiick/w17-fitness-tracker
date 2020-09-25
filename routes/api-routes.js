@@ -8,9 +8,9 @@ module.exports = function (app) {
       .then(data => { res.json(data)
         console.log(data); })
       
-      // .catch(err => {
-      //   res.json(err);
-      // });
+      .catch(err => {
+        res.json(err);
+      });
   })
 
 
@@ -34,4 +34,15 @@ module.exports = function (app) {
         res.json(err);
       });
   })
+
+//Thanks yakini
+app.get("/api/workouts/range", (req, res) => {
+  db.workoutPlan.find({}).limit(10)
+    .then(workouts => {
+      res.json(workouts);
+    })
+    .catch(err => {
+      res.status(400).json(err);
+    });
+});
 }
