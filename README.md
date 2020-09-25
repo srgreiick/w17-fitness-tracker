@@ -21,7 +21,7 @@ New/Edit Movement Page (Desktop)
 Stats Page (Desktop)
 ![Screenshot](assets/stats.png "StatsPage") 
 ## Installation  
-No installation required to use, but if you want to run the base application yourself just download or clone the git repository and run "npm install" to get all the dependencies you need.
+Just download or clone the git repository and run "npm install" to get all the dependencies you need. You will also need to setup a mongodb database.
 ## Usage
 Just select either new or continue, "new workout" gets you a new container that you can add exercises to or select "continue workout" to add movements to the last container.
 ## Contributing
@@ -34,3 +34,6 @@ This application is covered under the GPLv3 license.
 
 ## Questions
 Please send questions or inquiries to: samgreilick@gmail.com
+
+## Hosted Application
+https://fitness-tracker-uofu-17.herokuapp.com/
